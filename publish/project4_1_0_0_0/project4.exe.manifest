@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="project4.exe" version="1.0.0.0" publicKeyToken="40d60ff9fa7649b4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="project4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="project4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="10.2.3600.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.ShockwaveFlashObjects.dll" size="28672">
+      <assemblyIdentity name="AxInterop.ShockwaveFlashObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VzzKhGG1uj/hkTsWKlgFHsB9H7U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.DSCDialogs.dll" size="8192">
+      <assemblyIdentity name="Interop.DSCDialogs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>sQ+turLjqAdTVU5WWWnXtJDMXYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ShockwaveFlashObjects.dll" size="32768">
+      <assemblyIdentity name="Interop.ShockwaveFlashObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xbkEPv5gVPQPCLG41Uese/bKCqE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IrisSkin2.dll" size="573440">
+      <assemblyIdentity name="IrisSkin2" version="2006.3.22.45" publicKeyToken="0ED4C5F2BBF81AC0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Lty0eK17p1iS/RUjUebW5rL+sQs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="project4.exe" size="679936">
+      <assemblyIdentity name="project4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>E0MhuNGGXKOIAW4bJqGp7ix3eUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PureComponents.ActionSet.dll" size="3254272">
+      <assemblyIdentity name="PureComponents.ActionSet" version="2008.2.1125.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4sds1rkpl5SyufgaoVB+6armw+E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="project4.exe.config" size="2139">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>O+dHfT9tMIifMbF0P+d1JdNFQAo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALKUNOZ\ALSHMOWKH" issuerKeyHash="54667cb09a1952215f903b30871330bd85621671" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>p98klf2IHTXOsGXe8pvoRYOUreQ=</DigestValue></Reference></SignedInfo><SignatureValue>HRR3R2ah1JBrYWTdznwB/ZStDrP0KKbRpJiamAW8rtslsntyWNdB6WCUr+MvzQvpfgAmNAnhfJEgs9i1ro2AphyESXYfpsvBnMgNvsPp5y/0F5kN7s6niWrxVlzX/VzNZCotF7Icu/Okv0PxGTAg9f7zC1oyAoJAmSKENZQ9GNw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2Sf+Jwi5dMMCnbZ47nAO/Px3rtWQraQDAE3S7/ZggOaE0Rpldz5CzYfhTY7Jjz2lZF8t7FTAzkOJfThIJdqLti58tsFFFM7v5oIsBXYKvwxtNoM/Q6+TiyDfIqA+UIEmQocZKr3ImvXIZPmUagcnxdk7aUM5JaMVRYPVrPcLiVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e4ad948345e89bf2de65b0ce351d88fd9524dfa7" Description="" Url=""><as:assemblyIdentity name="project4.exe" version="1.0.0.0" publicKeyToken="40d60ff9fa7649b4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALKUNOZ\ALSHMOWKH</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NRH7OevkLa6Pqa0PNdx1QWyNq8U=</DigestValue></Reference></SignedInfo><SignatureValue>DDwopkleMUccBW+fnKbm3675zeOcxOcBu01qzg4NqRju3Z+F/oNhHavAqJJGjsIrfpPcjrSGcQOQ/Rn7WnKm70Xts9BLce6+WTcrm0r8L/vYquYoYfUvsJLUUyAmosbMuiQc0VJSCyiuoi2KRYEz+SAa8K17dO5y/qFUjePFKJ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2Sf+Jwi5dMMCnbZ47nAO/Px3rtWQraQDAE3S7/ZggOaE0Rpldz5CzYfhTY7Jjz2lZF8t7FTAzkOJfThIJdqLti58tsFFFM7v5oIsBXYKvwxtNoM/Q6+TiyDfIqA+UIEmQocZKr3ImvXIZPmUagcnxdk7aUM5JaMVRYPVrPcLiVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQTzpeS2ET66RLlM27+Oc0KTAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBBAEwASwBVAE4ATwBaAFwAQQBMAFMASABNAE8AVwBLAEgwHhcNMDkwNTIzMTAwMTA1WhcNMTAwNTIzMTYwMTA1WjAtMSswKQYDVQQDHiIAQQBMAEsAVQBOAE8AWgBcAEEATABTAEgATQBPAFcASwBIMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZJ/4nCLl0wwKdtnjucA78/Heu1ZCtpAMATdLv9mCA5oTRGmV3PkLNh+FNjsmPPaVkXy3sVMDOQ4l9OEgl2ou2Lny2wUUUzu/mgiwFdgq/DG02gz9Dr5OLIN8ioD5QgSZChxkqvcia9chk+ZRqByfF2TtpQzkloxVFg9Ws9wuJVQIDAQABMAkGBSsOAwIdBQADgYEAreX6wnP7176ECQ0Rv4qq7mR6NkfivH5ZHZEmyU0wrTZ/kbztI3RrrwlHh0vGi97Z2Ltm/HUXKX3UNbQ3Qcc22ELQ9uKQgwHWXeABcP8eYdVUjN8dnToJeuT5DPMxR9ivYywSeB0euo5Q8QlcsNaC9uglOOEjfyeoC7FWYz1JwUM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
